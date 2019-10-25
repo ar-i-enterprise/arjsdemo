@@ -31,7 +31,7 @@
   <a-scene embedded arjs="sourceType: webcam; debugUIEnabled: false;">
     <a-assets>
       <a-asset-item id="robot" src="model/jet.glb"></a-asset-item>
-      <a-asset-item id="lambo" src="model/lambo.glb"></a-asset-item>
+      <a-asset-item id="plane" src="model/plane.glb"></a-asset-item>
     </a-assets>
 
     <a-marker
@@ -39,7 +39,7 @@
       type="pattern"
       url="https://ar-i-enterprise.github.io/ar-i-marker-patt/black-blue2-0.5.patt"
     >
-      <a-entity gltf-model="#robot" animation-mixer></a-entity>
+      <a-entity gltf-model="#plane" animation-mixer></a-entity>
     </a-marker>
 
     <a-entity camera></a-entity>
